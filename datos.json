@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CatPrinter</title>
-</head>
-<body>
-    <pre id="graph2"></pre>
-    <button id="connectButton">Print</button>
-
-    <h1>¿Qué te animas a comer?</h1>
-    <p>Selecciona como te sientes</p>
-    <div class="animo" id="a0">
-        <div style="font-size: 70px;">&#128543;</div>
-        <h2>Ansios@</h2>
-        <pre id="mood0"></pre>
-    </div>
-    <div class="animo" id="a1">
-        <div style="font-size: 70px;">&#128557;</div>
-        <h2>Triste</h2>
-        <pre id="mood1"></pre>
-    </div>
-    <div class="animo" id="a2">
-        <div style="font-size: 70px;">&#128553;</div>
-        <h2>Desanimad@</h2>
-        <pre id="mood2"></pre>
-    </div>
-    <div class="animo" id="a3">
-        <div style="font-size: 70px;">&#128548;</div>
-        <h2>Apurad@</h2>
-        <pre id="mood3"></pre>
-    </div>
-    <div class="animo" id="a4">
-        <div style="font-size: 70px;">&#128522;</div>
-        <h2>Content@</h2>
-        <pre id="mood4"></pre>
-    </div>
-    <div class="animo" id="a5">
-        <div style="font-size: 70px;">&#129319;</div>
-        <h2>Agripad@</h2>
-        <pre id="mood5"></pre>
-    </div>
-    <script>
-       var data = {
+{
     "animo":{
         "ansioso": {
             "emoji": "&#128543;",
@@ -371,8 +327,3 @@
 
     }
 }
-    </script>
-    <script type="module" src="script.js"></script>
-    <script type="module" src="./node_modules/@opuu/cat-printer/dist/cat-printer.js"></script>
-</body>
-</html>
